@@ -6,7 +6,7 @@ KalmanMuonCalibrator::KalmanMuonCalibrator() {
 
 KalmanMuonCalibrator::KalmanMuonCalibrator(const std::string& filename) {
 
-  random_ = new TRandom3(10101982);
+  random_ = new TRandom3(19801117);
 
 
   edm::FileInPath path("KaMuCa/Calibration/data/"+filename+".root");
